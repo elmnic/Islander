@@ -3,8 +3,8 @@ package islander;
 public class Goal {
 	private int maxX;
 	private int maxY;
-	private int spawnWidth = 6;
-	private int spawnHeight = 5;
+	private int spawnWidth = 12;
+	private int spawnHeight = 10;
 	private int count = 0;
 	private int[] goal = new int[2];
 	
