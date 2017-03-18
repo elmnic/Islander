@@ -6,9 +6,9 @@ import javax.swing.*;
 public class Islander {
 
     public static void main(String[] args) {
-        final int WIDTH = 80;
+        final int WIDTH = 100;
         final int HEIGHT = 60;
-        final int SCALE = 11;
+        final int SCALE = 10;
         final double RATIO = 0.46;
         JFrame frame = new JFrame("Map");
         Control control = new Control(WIDTH, HEIGHT, RATIO, SCALE);
