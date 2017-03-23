@@ -71,6 +71,7 @@ public class Control extends JPanel implements ActionListener, KeyListener {
         restart.addActionListener(new RunListener());
         gridToggle.addActionListener(new RunListener());
 
+        // Add buttons to panel on window
         viewPanel.add(map);
         controlPanel.add(play);
         controlPanel.add(Jesus);
